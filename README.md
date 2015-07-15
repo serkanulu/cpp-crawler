@@ -9,3 +9,8 @@ Libraries used:
 - boost_1_57_0
 - cpp-netlib-0.11.1
 - htmlcxx-0.85
+
+
+Build using:
+
+g++ crawler.cpp -o crawler -I /usr/local/include -L/usr/local/lib -lhtmlcxx -lcss_parser_pp -lcss_parser -lboost_system -lboost_filesystem -lboost_thread -lpthread -lcppnetlib-uri -lcppnetlib-client-connections -lssl -lcrypto -std=c++11
